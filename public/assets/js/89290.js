@@ -1,0 +1,2 @@
+if(undefined!==$.fn.camera){$('#bandeau-block-configuration-15311').camera({height:parseFloat((100*561)/1920)+'%',minHeight:'',portrait:true,pagination:false,loader:'none',thumbnails:false,fx:'random',time:7000,transPeriod:1500});}
+$(function(){$('a.wt-bandeau-dynamic-link').on('click',function(event){var $elementClicked=$(event.target);$.each(['camera_commands','camera_prev','camera_next'],function(index,value){if($elementClicked.closest('div.'+value).length){event.preventDefault();return false;}})});});

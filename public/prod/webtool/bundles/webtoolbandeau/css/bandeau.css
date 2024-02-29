@@ -1,0 +1,53 @@
+.wt-bandeau {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    /* @see : https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html */
+    margin-bottom: -5px;
+}
+
+.wt-bandeau > .col-xs-12 {
+    padding: 0px;
+}
+
+.wt-bandeau .wt-bandeau-link {
+    z-index: 0;
+}
+
+.wt-bandeau .wt-bandeau-link img {
+    width: 100%;
+}
+
+.wt-bandeau .wt-bandeau-button {
+    position: absolute;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0px;
+}
+
+.wt-bandeau .wt-bandeau-button a {
+    color: inherit;
+}
+.wt-bandeau .wt-bandeau-button a[href='#'] {
+    cursor: default;
+}
+.wt-bandeau .wt-bandeau-button a,
+.wt-bandeau .wt-bandeau-button a:hover {
+    text-decoration: none;
+}
+.bandeau-personnalise .wt-bandeau .wt-bandeau-link img {
+    max-width: 100%;
+    width: auto;
+}
+.wt-bandeau .wt-bandeau-button img {
+    width: 100%;
+}
+.wt-bandeau .camera_pie {
+    display: none;
+}
+.wt-bandeau .camera_commands,
+.wt-bandeau .camera_next,
+.wt-bandeau .camera_prev {
+    border-radius: 50%;
+    cursor: pointer;
+}

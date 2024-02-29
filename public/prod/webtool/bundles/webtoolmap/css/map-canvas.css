@@ -1,0 +1,51 @@
+.company-logo {
+    width: 100px;
+    max-height: 100px;
+    min-height: 65px;
+}
+
+.destination-form {
+    margin: 0 0 20px;
+    background: #EEEEEE;
+    padding: 10px 20px;
+    border: solid 1px #C0C0C0;
+    color: black;
+    width: 100%;
+}
+
+.destination-form button {
+    width: 100%;
+    overflow: hidden;
+}
+.destination-form label {
+    display: block;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.destination-form input {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.directions-panel .adp, .adp table {
+    color: inherit;
+    font-family: inherit;
+}
+
+.directions-panel .adp-placemark .adp-text  {
+    color: black;
+}
+
+.map-canvas {
+    min-height: 200px;
+    height: 100%;
+}
+
+@media print {
+    .directions-panel {
+        float: none;
+        width: auto;
+    }
+}

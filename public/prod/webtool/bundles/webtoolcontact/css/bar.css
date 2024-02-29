@@ -1,0 +1,21 @@
+.contact-block-configuration.bar input[type="text"],
+.contact-block-configuration.bar input[type="email"],
+.contact-block-configuration.bar .input-phone,
+.contact-block-configuration.bar .input-file,
+.contact-block-configuration.bar .custom-checkbox,
+.contact-block-configuration.bar input[type="submit"],
+.contact-block-configuration.bar select,
+.contact-block-configuration.bar textarea {
+    padding: .5em 1em;
+    border: none;
+    color: inherit;
+}
+.contact-block-configuration.bar .custom-checkbox {
+    padding: .5em 0 0 1em;
+}
+
+.contact-block-configuration.bar input[type="submit"] {
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: .2em;
+}
